@@ -25,15 +25,6 @@
     font-size: 48px;
   }
   
-  @media (max-width: 576px) {
-    h1 {
-      font-size: 48px;
-    }
-    h2 {
-      font-size: 32px;
-    }
-  }
-  
   h3 {
     font-size: 24px;
     opacity: 0.7;
@@ -119,5 +110,26 @@
   #weather-link:hover,
   #yogurt-link:hover {
     color: #0d6efd;
+  }
+
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 48px;
+    }
+    h2 {
+      font-size: 32px;
+      text-align: center;
+    }
+    .header-homepage {
+        font-size: 32px;
+        text-align: center; 
+    }
+    p { 
+        text-align: center;
+    }
+    .btn-primary {
+        margin: 0 auto;
+        display: block;
+    }
   }
   
